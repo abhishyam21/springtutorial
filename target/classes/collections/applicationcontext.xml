@@ -39,5 +39,10 @@
                 <entry key="abhi" value="ramu"/>
             </map>
         </property>
+        <property name="properties">
+            <props>
+                <prop key="name" >Abhishyam  </prop>
+            </props>
+        </property>
     </bean>
 </beans>
