@@ -10,6 +10,7 @@
           <file>file://$MODULE_DIR$/src/main/resources/injectvaluestobean/all-modules.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/injectvaluestobean/innerbean/general.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/innerbean/innerbean.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/collections/applicationcontext.xml</file>
         </fileset>
       </configuration>
     </facet>

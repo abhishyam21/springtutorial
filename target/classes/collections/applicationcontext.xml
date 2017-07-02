@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="customer" class="com.abhishyam.learn.collections.Customer">
+        <!-- set list of values-->
+        <property name="list">
+            <list >
+                <value>1</value>
+                <value>abhishyam</value>
+                <bean id="person" class="com.abhishyam.learn.innerbean.Person">
+                    <property name="name" value="sai"/>
+                    <property name="address" value="vizag"/>
+                    <property name="age" value="20"/>
+                </bean>
+            </list>
+        </property>
+        <!-- END OF LIST-->
+        <property name="set">
+            <!--  Setting set of values-->
+            <set>
+                <value>6</value>
+                <value>6</value>
+                <value>6</value>
+                <value>Kiran</value>
+                <value>Kiran</value>
+                <bean id="person" class="com.abhishyam.learn.innerbean.Person">
+                    <property name="name" value="sivani"/>
+                    <property name="address" value="CANADA"/>
+                    <property name="age" value="35"/>
+                </bean>
+            </set>
+        </property>
+        
+        <property name="map">
+            <map>
+                <entry key="abhi" value="shyam"/>
+                <entry key="abhi" value="ramu"/>
+            </map>
+        </property>
+    </bean>
+</beans>
