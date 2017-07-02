@@ -4,7 +4,11 @@
 	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
 <bean id="fileNameGen" class="com.abhishyam.learn.injectvaluestobean.FileNameGenerator">
-        <property name="name" value="abhi"/>
-    <property name="type" value="txt"/>
+    <property name="name">
+        <value>abhishyam</value>
+    </property>
+    <property name="type" >
+        <value>Text</value>
+    </property>
 </bean>
 </beans>

@@ -5,6 +5,8 @@
       <configuration>
         <fileset id="fileset" name="Spring Application Context" removed="false">
           <file>file://$MODULE_DIR$/src/main/resources/injectvaluestobean/normalway.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/injectvaluestobean/shortcutway.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/injectvaluestobean/pschema.xml</file>
         </fileset>
       </configuration>
     </facet>
