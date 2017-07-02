@@ -1,0 +1,4 @@
+In Spring, there are three way to inject values into BEAN.
+1). Normal Way
+2). ShortCut
+3). "p" schema
